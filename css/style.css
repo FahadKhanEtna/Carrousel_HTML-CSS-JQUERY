@@ -1,0 +1,40 @@
+body
+{
+	text-align: center;
+}
+
+#carrousel
+{
+	width: 600px;
+	height: 450px;
+	margin: auto;
+	position: relative;
+	border: 5px solid blue;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.next img
+{
+	width: 100px;
+	position: absolute;
+	top: 170px;
+	right: 0px;
+	display: none;
+}
+
+.back img
+{
+	width: 100px;
+	position: absolute;
+	top: 170px;
+	left: 0px;
+	display: none;
+}
+
+#carrousel_content img
+{
+	display: inline;
+	width: 600px;
+	height: 450px;
+}
